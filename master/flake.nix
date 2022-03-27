@@ -11,6 +11,7 @@
   inputs.src-d3-master.ref   = "refs/heads/master";
   inputs.src-d3-master.owner = "hiteshjasani";
   inputs.src-d3-master.repo  = "nim-d3";
+  inputs.src-d3-master.dir   = "";
   inputs.src-d3-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
